@@ -1,0 +1,34 @@
+.off-screen {
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: -100%;
+    transition: top 0.5s;
+}
+
+
+.off-screen header{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 200%;
+}
+
+.trailer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+iframe{
+    width: 70%;
+    min-height: 700px;
+    height: 50%;
+}
+
+
+
+
+
+
+
